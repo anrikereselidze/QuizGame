@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A8E82"
+    android:orientation="vertical"
+    >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+                <LinearLayout
+                    android:background="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    >
+
+                        <TextView
+                            android:id="@+id/text_view_question1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/radio_group1"
+                            android:layout_marginBottom="16dp"
+                            android:text="რომელ დარგში არ გაიცემა ნობელის პრემია?"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp"
+
+                            >
+
+                        </TextView>
+                        <RadioGroup
+                            android:id="@+id/radio_group1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true">
+
+                                <RadioButton
+                                    android:id="@+id/radio_button1_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ბიოლოგია"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button1_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ფიზიკა"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button1_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="მათემატიკა"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button1_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ქიმია"></RadioButton>
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:id="@+id/text_view_question2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_above="@+id/radio_group2"
+                            android:layout_marginBottom="16dp"
+                            android:text="ბათუმში რამდენი ათასი ბერას ფანი იკრიბებოდა 2011 წელს?"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp"
+
+                            >
+
+                        </TextView>
+
+                        <RadioGroup
+                            android:id="@+id/radio_group2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true">
+
+                                <RadioButton
+                                    android:id="@+id/radio_button2_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="20 000"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button2_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="30 000"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button2_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="90 000"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button2_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="50 000"></RadioButton>
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:layout_marginTop="16dp"
+                            android:id="@+id/text_view_question3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/radio_group3"
+                            android:layout_marginBottom="16dp"
+                            android:text="ჯერ სად წაუჭირა ვენერამ ხელები?"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp"
+
+                            >
+
+                        </TextView>
+                        <RadioGroup
+                            android:id="@+id/radio_group3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true">
+
+                                <RadioButton
+                                    android:id="@+id/radio_button3_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ყელში"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button3_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ხელში"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button3_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ყურში"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button3_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="კოჭში"></RadioButton>
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:layout_marginTop="16dp"
+                            android:id="@+id/text_view_question4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/radio_group4"
+                            android:layout_marginBottom="16dp"
+                            android:text="ქუთაისში ღორები სად დადიოდნენ?"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp"
+
+                            >
+
+                        </TextView>
+                        <RadioGroup
+                            android:id="@+id/radio_group4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true">
+
+                                <RadioButton
+                                    android:id="@+id/radio_button4_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="მინდორზე"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button4_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ღელეში"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button4_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="რესტორანში"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button4_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="კინოში"></RadioButton>
+
+                        </RadioGroup>
+
+                        <TextView
+                            android:layout_marginTop="16dp"
+                            android:id="@+id/text_view_question5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/radio_group5"
+                            android:layout_marginBottom="16dp"
+                            android:text="რამდენი სახანძრო იყო მისული ხანძრის ჩასაქრობად?"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp"
+
+                            >
+
+                        </TextView>
+
+                        <RadioGroup
+                            android:id="@+id/radio_group5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true">
+
+                                <RadioButton
+                                    android:id="@+id/radio_button5_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="3"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button5_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button5_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="7"></RadioButton>
+
+                                <RadioButton
+                                    android:id="@+id/radio_button5_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="8"></RadioButton>
+
+                        </RadioGroup>
+
+                        <Button
+                            android:id="@+id/scoreActivity"
+                            android:textColor="@android:color/white"
+                            android:layout_marginTop="16dp"
+                            android:onClick="scoreActivity"
+                            android:layout_marginBottom="16dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/holo_orange_dark"
+                            android:text="finish">
+
+
+                        </Button>
+
+                </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>

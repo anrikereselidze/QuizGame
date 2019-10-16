@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A8E82">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/Nextbutton"
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:text="Start Quiz"
+            android:textSize="50dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="@android:string/httpErrorBadUrl"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/background_light"
+
+
+            >
+
+
+        </Button>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
